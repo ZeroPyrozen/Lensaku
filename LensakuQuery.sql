@@ -50,3 +50,6 @@ WHERE UserRole = (
 	FROM MsUser
 	WHERE UserNickName = 'Dummy'
 )
+
+SELECT *
+FROM MsUser
