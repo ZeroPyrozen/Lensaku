@@ -4,6 +4,7 @@ CREATE TABLE MsUser
 	UserName VARCHAR(50) NOT NULL,
 	UserPassword VARCHAR(50) NOT NULL,
 	UserNickName VARCHAR(50) NOT NULL,
+	UserEmail VARCHAR(50) NOT NULL,
 	UserRole INT NOT NULL,
 	UserIn VARCHAR(50), 
 	DateIn DATETIME, 
@@ -13,6 +14,8 @@ CREATE TABLE MsUser
 
 ALTER TABLE MsUser
 ADD UserRole INT NOT NULL
+
+DROP TABLE MsUser
 
 ALTER TABLE MsUser
 ADD UserIn VARCHAR(50), DateIn DATE, UserUp VARCHAR(50), DateUp DATE
@@ -37,7 +40,7 @@ CREATE TABLE MsUserRole
 INSERT INTO MsUserRole
 VALUES (NEWID(), 1, 'Admin','Oky', GETDATE(),NULL,NULL)
 INSERT INTO MsUser
-VALUES (NEWID(), 'DummyUser', 'DummyPass','Dummy', 1,'Oky',GETDATE(),NULL,NULL)
+VALUES (NEWID(), 'DummyUser', 'DummyPass','Dummy', 'zeropyrozen@gmail.com',1,'Oky',GETDATE(),NULL,NULL)
 
 --Example for find Role
 SELECT UserRoleStatus
