@@ -4,6 +4,11 @@ CREATE TABLE MsUser
 	UserName VARCHAR(50) NOT NULL,
 	UserPassword VARCHAR(50) NOT NULL,
 	UserNickName VARCHAR(50) NOT NULL,
+	UserRole INT NOT NULL,
+	UserIn VARCHAR(50), 
+	DateIn DATETIME, 
+	UserUp VARCHAR(50), 
+	DateUp DATETIME
 );
 
 ALTER TABLE MsUser
@@ -16,17 +21,29 @@ ALTER TABLE MsUser
 ALTER COLUMN DateIn DATETIME
 ALTER TABLE MsUser
 ALTER COLUMN DateUp DATETIME
---INSERT INTO MsUser
---VALUES (NEWID(), 'DummyUser', 'DummyPass','Dummy', 1)
+
 
 
 CREATE TABLE MsUserRole
 (
 	UserRoleID UNIQUEIDENTIFIER PRIMARY KEY,
-	UserRole INT NOT NULL,
+	UserRole INT,
 	UserRoleStatus VARCHAR(50) NOT NULL,
 	UserIn VARCHAR(50), 
 	DateIn DATETIME, 
 	UserUp VARCHAR(50), 
 	DateUp DATETIME
 );
+INSERT INTO MsUserRole
+VALUES (NEWID(), 1, 'Admin','Oky', GETDATE(),NULL,NULL)
+INSERT INTO MsUser
+VALUES (NEWID(), 'DummyUser', 'DummyPass','Dummy', 1,'Oky',GETDATE(),NULL,NULL)
+
+--Example for find Role
+SELECT UserRoleStatus
+FROM MsUserRole
+WHERE UserRole = (
+	SELECT UserRole
+	FROM MsUser
+	WHERE UserNickName = 'Dummy'
+)
