@@ -847,7 +847,9 @@
     <Content Include="dist\js\sidebarmenu.js" />
     <Content Include="dist\js\waves.js" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -1053,6 +1055,20 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lensaku.Data\Lensaku.Data.csproj">
+      <Project>{3993cb50-4c58-45b3-ae02-90c3fbb5f259}</Project>
+      <Name>Lensaku.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lensaku.Model\Lensaku.Model.csproj">
+      <Project>{91EAD155-52F1-4CBE-BCA0-17710B99EE16}</Project>
+      <Name>Lensaku.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lensaku.Service\Lensaku.Service.csproj">
+      <Project>{80cc3003-eca5-412d-a3d4-8d2b57e34d7a}</Project>
+      <Name>Lensaku.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

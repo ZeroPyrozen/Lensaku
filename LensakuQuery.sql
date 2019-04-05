@@ -53,3 +53,20 @@ WHERE UserRole = (
 
 SELECT *
 FROM MsUser
+
+-- =============================================
+-- Author		: Oky
+-- Create Date	: 5 April 2019
+-- Description	: User Login
+-- =============================================
+ALTER PROCEDURE ln_General_Login
+@Username VARCHAR(50),
+@Password VARCHAR(50)
+AS
+BEGIN
+	SELECT UserID, UserName, UserPassword, UserNickName, UserEmail, UserRole
+	FROM MsUser
+	WHERE UserName = @Username AND UserPassword = @Password
+END
+
+ln_General_Login 'DummyUser', 'DummyPass'

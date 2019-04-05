@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lensaku", "Lensaku\Lensaku.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lensaku.Model", "Lensaku.Model\Lensaku.Model.csproj", "{91EAD155-52F1-4CBE-BCA0-17710B99EE16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lensaku.Service", "Lensaku.Service\Lensaku.Service.csproj", "{80CC3003-ECA5-412D-A3D4-8D2B57E34D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lensaku.Data", "Lensaku.Data\Lensaku.Data.csproj", "{3993CB50-4C58-45B3-AE02-90C3FBB5F259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{91EAD155-52F1-4CBE-BCA0-17710B99EE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EAD155-52F1-4CBE-BCA0-17710B99EE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EAD155-52F1-4CBE-BCA0-17710B99EE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CC3003-ECA5-412D-A3D4-8D2B57E34D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CC3003-ECA5-412D-A3D4-8D2B57E34D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CC3003-ECA5-412D-A3D4-8D2B57E34D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CC3003-ECA5-412D-A3D4-8D2B57E34D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3993CB50-4C58-45B3-AE02-90C3FBB5F259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3993CB50-4C58-45B3-AE02-90C3FBB5F259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3993CB50-4C58-45B3-AE02-90C3FBB5F259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3993CB50-4C58-45B3-AE02-90C3FBB5F259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
