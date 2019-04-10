@@ -13,11 +13,12 @@ namespace Lensaku.Controllers
 {
     public class AuthController : Controller
     {
-        public IUserService UserService;
+        private readonly IUserService UserService;
         public AuthController(IUserService UserService)
         {
             this.UserService = UserService;
         }
+
         // GET: Auth
         public ActionResult Index()
         {
@@ -84,6 +85,11 @@ namespace Lensaku.Controllers
             {
                 return Json(new { Status = "Fail", Message = "Invalid Username or Password" });
             }
+        }
+        public ActionResult Logout()
+        {
+            Session.RemoveAll();
+            return RedirectToAction("Index");
         }
     }
 }

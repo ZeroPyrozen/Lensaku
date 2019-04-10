@@ -41,13 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\ModelSQLParam.cs" />
+    <Compile Include="Base\ReflectionExtensions.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Modules\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Base\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Lensaku.Data\Lensaku.Data.csproj">
       <Project>{3993cb50-4c58-45b3-ae02-90c3fbb5f259}</Project>

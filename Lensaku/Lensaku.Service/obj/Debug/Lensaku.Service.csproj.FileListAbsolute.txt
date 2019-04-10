@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\obj\Debug\Lensaku.Service.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\obj\Debug\Lensaku.Service.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Service.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Service.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Data.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Model.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Data.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\Lensaku.Model.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\obj\Debug\Lensaku.Service.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\obj\Debug\Lensaku.Service.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Service\obj\Debug\Lensaku.Service.pdb

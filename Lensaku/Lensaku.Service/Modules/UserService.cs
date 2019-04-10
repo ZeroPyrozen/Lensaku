@@ -27,7 +27,7 @@ namespace Lensaku.Service.Modules
         {
             var Param = new[] 
                 { new SqlParameter("@Username", Username),new SqlParameter("@Password", Password) };
-            return await UserRepository.ExecSPToSingleAsync("ln_General_Login @Username, @Password", Param);
+            return await UserRepository.ExecSPToSingleAsync("[dbo].[ln_General_Login] @Username, @Password", Param);
         }
     }
 }

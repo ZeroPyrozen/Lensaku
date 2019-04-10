@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Entities\GeneralEntities.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />
     <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />

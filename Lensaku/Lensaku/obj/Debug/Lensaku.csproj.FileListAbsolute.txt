@@ -77,3 +77,17 @@ C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\obj\Debug\Lensaku.csproj.
 C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\obj\Debug\Lensaku.csproj.CopyComplete
 C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\obj\Debug\Lensaku.dll
 C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\obj\Debug\Lensaku.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Data.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Model.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Service.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Data.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Model.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Lensaku.Service.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Autofac.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Autofac.Integration.Mvc.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\AutoMapper.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\System.ValueTuple.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Autofac.xml
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\Autofac.Integration.Mvc.xml
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\AutoMapper.xml
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku\bin\System.ValueTuple.xml

@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\bin\Debug\Lensaku.Model.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\bin\Debug\Lensaku.Model.pdb
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\obj\Debug\Lensaku.Model.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\obj\Debug\Lensaku.Model.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\obj\Debug\Lensaku.Model.dll
+C:\Users\USER\Documents\GitHub\Lensaku\Lensaku\Lensaku.Model\obj\Debug\Lensaku.Model.pdb
